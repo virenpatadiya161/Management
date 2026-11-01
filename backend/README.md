@@ -32,3 +32,18 @@ backend/
 ├── .env
 ├── .gitignore
 └── package.json
+//-------------------------------------------------------------------------------
+pgAdmin 4 માં આ steps follow કરો.
+Step 1: Create Database :-
+Databases → Create → Database...
+Database name લખો
+Owner: postgres
+Save
+તમારું database create થઈ ગયું!
+//-------------------------------------------------------------------------------
+backend 
+run = npx prisma init
+run = npx prisma generate
+run = npx prisma migrate dev --name init
+//-------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------
